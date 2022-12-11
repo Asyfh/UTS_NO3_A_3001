@@ -34,13 +34,30 @@ public class UTS_NO3_A_3001{
                 System.out.print("Nama             : ");
                 A[i].nama_3001 = br.readLine();
                 System.out.print("Jurusan          : ");
-                A[i].jurusan_3001 =br.readLine();
+                A[i].jurusan_3001 = br.readLine();
                 System.out.print("IPK              : ");
-                A[i].ipk_3001 =Integer.parseInt(br.readLine());
+                A[i].ipk_3001 =Float.parseFloat(br.readLine());
                 System.out.print("Mata Kuliah      : ");
                 A[i].mkAsisten_3001 = br.readLine();
                 System.out.print("Jumlah Pertemuan : ");
                 A[i].jmlPertemuan_3001 = Integer.parseInt(br.readLine());
+                System.out.println();
+            }
+            
+            
+            for(int i = 0; i < 1; i++){
+                System.out.print("NIM              : ");
+                S[i].nim_3001 = br.readLine();
+                System.out.print("Nama             : ");
+                S[i].nama_3001 = br.readLine();
+                System.out.print("Jurusan          : ");
+                S[i].jurusan_3001 =br.readLine();
+                System.out.print("IPK              : ");
+                S[i].ipk_3001 =Float.parseFloat(br.readLine());
+                System.out.print("Unit Kerja       : ");
+                S[i].unitKerja_3001 = br.readLine();
+                System.out.print("Jam Kerja        : ");
+                S[i].jamKerja_3001 = Integer.parseInt(br.readLine());
                 System.out.println();
             }
             
@@ -50,23 +67,6 @@ public class UTS_NO3_A_3001{
                 System.out.println("");
             }
 
-            for(int i = 0; i < 1; i++){
-                System.out.print("NIM         : ");
-                S[i].nim_3001 = br.readLine();
-                System.out.print("Nama        : ");
-                S[i].nama_3001 = br.readLine();
-                System.out.print("Jurusan     : ");
-                S[i].jurusan_3001 =br.readLine();
-                System.out.print("IPK         : ");
-                S[i].ipk_3001 =Integer.parseInt(br.readLine());
-                System.out.print(" Unit Kerja : ");
-                S[i].unitKerja_3001 = Integer.parseInt(br.readLine());
-                System.out.print("Jam Kerja   : ");
-                S[i].jamKerja_3001 = Integer.parseInt(br.readLine());
-                System.out.println();
-            }
-            
-            
             System.out.println("DATA STUDENT STAFF");
             for(Student_Staff_3001 s : S){
                 s.tampilDataStudentStaff_3001();

@@ -15,14 +15,14 @@ public class Asisten_Praktikum_3001 extends Mahasiswa_3001 {
     String nim_3001;
     
     
-    public double totalPendapatanAsisten(){
+    public double totalPendapatan_3001(){
         return(jmlPertemuan_3001 * 50000);
     }
     public void tampilDataAsistenPraktikum_3001() {
         super.tampilDataMhs();
-        System.out.println(" Mata Kuliah    : " + mkAsisten_3001);
+        System.out.println(" Mata Kuliah        : " + mkAsisten_3001);
         System.out.println(" Jumlah Pertemuan   : " + jmlPertemuan_3001);
-        System.out.println(" Total Pendapatan : " + totalPendapatanAsisten());
+        System.out.println(" Total Pendapatan   : " + totalPendapatan_3001());
         
         
     }

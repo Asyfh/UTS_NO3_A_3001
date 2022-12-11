@@ -10,7 +10,7 @@ package com.mycompany.uts_no3_a_3001;
  */
 public class Mahasiswa_3001 {
     protected String nim_3001, nama_3001, jurusan_3001;
-    protected int ipk_3001;
+    protected float ipk_3001;
     
     public void tampilDataMhs() {
         System.out.println(" NIM       : " + nim_3001);

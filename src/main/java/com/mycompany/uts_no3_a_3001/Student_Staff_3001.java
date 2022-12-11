@@ -10,17 +10,18 @@ package com.mycompany.uts_no3_a_3001;
  * S1SI05A
  */
 public class Student_Staff_3001 extends Mahasiswa_3001{
-    int unitKerja_3001, jamKerja_3001;
-    int ipk_3001;
+    String unitKerja_3001;
+    int jamKerja_3001;
+    float ipk_3001;
     
-    public double totalPendapatanStudentStaff(){
+    public double totalPendapatan_3001(){
         return (jamKerja_3001 * 30000);
     }
     public void tampilDataStudentStaff_3001(){
         super.tampilDataMhs();
-        System.out.println(" Unit Kerja : " + unitKerja_3001);
-        System.out.println(" Jam Kerja : " +jamKerja_3001);
-        System.out.println(" Total Pendapatan Student Staff : " +totalPendapatanStudentStaff());
+        System.out.println("Unit Kerja                     : " + unitKerja_3001);
+        System.out.println("Jam Kerja                      : " +jamKerja_3001);
+        System.out.println("Total Pendapatan Student Staff : " +totalPendapatan_3001());
     }
 }
 
